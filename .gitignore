@@ -1,0 +1,23 @@
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache e arquivos Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+
+# Exceção para arquivos de exemplo sem segredos
+!.env.example
+
+# Configurações locais de editores
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
